@@ -20,7 +20,7 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- Names of annotated entity classes -->
-        <!-- <mapping class="com.Caregiver.models"/> -->
+        <!-- <mapping class="com.Caregiver.model"/> -->
 
 
     </session-factory>

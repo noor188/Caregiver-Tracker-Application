@@ -31,3 +31,22 @@ Only Patiens with the right credentials can log in. Valid patients are able to s
 - [Junit jupiter param](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params)
 - [Junit platform suite](https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite-engine)
 - [Junit platform runner](https://mvnrepository.com/artifact/org.junit.platform/junit-platform-runner)
+
+### Project Structure:
+```
+/src/main/java/com/Caregiver/
+├── dao/
+│
+├── model/
+│
+├── service/
+|
+├── exception/
+|
+├── controller/
+
+
+/src/test/java/org/rma
+├── service/
+└── 
+```

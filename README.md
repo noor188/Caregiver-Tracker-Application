@@ -43,10 +43,16 @@ Only Patiens with the right credentials can log in. Valid patients are able to s
 |
 ├── exception/
 |
-├── controller/
-
+└── controller/
 
 /src/test/java/org/rma
 ├── service/
-└── 
+└──
+
+FRONT-END-WORK/
+├── pages/
+│
+├── styles/
+│
+└── images/
 ```

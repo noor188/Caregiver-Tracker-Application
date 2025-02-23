@@ -49,7 +49,7 @@ Only Patiens with the right credentials can log in. Valid patients are able to s
 ├── service/
 └──
 
-FRONT-END-WORK/
+./
 ├── index.html
 │
 ├── styles/

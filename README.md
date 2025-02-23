@@ -50,7 +50,7 @@ Only Patiens with the right credentials can log in. Valid patients are able to s
 └──
 
 FRONT-END-WORK/
-├── pages/
+├── index.html
 │
 ├── styles/
 │

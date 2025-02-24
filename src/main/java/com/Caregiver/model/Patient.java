@@ -38,6 +38,9 @@ public class Patient {
     )
     private Set<Caregiver> caregivers = new HashSet<>();
 
+    @OneToMany(mappedBy = "patient", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private Set<Service> services = new HashSet<>();
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

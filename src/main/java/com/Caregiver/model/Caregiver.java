@@ -33,6 +33,9 @@ public class Caregiver {
     @ManyToMany(mappedBy = "caregivers", cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
     private Set<Patient> patients = new HashSet<>();
 
+    @OneToMany(mappedBy = "caregiver", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private Set<Service> services = new HashSet<>();
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

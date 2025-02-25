@@ -36,6 +36,9 @@ Only Patiens with the right credentials can log in. Valid patients are able to s
 ```
 /src/main/java/com/Caregiver/
 ├── dao/
+│   ├── PatientI.java
+│   ├── CaregiverI.java
+│   ├── ServiceI.java 
 │
 ├── model
 │   ├── Patient.java 

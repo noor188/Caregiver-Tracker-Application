@@ -35,31 +35,21 @@ Only Patiens with the right credentials can log in. Valid patients are able to s
 ### Project Structure:
 ```
 /src/main/java/com/Caregiver/
-├── dao/
-│   ├── PatientI.java
-│   ├── CaregiverI.java
-│   ├── ServiceI.java 
-│
 ├── model
 │   ├── Patient.java 
 │   ├── Caregiver.java
-│   ├── Service.java 
+│   ├── Service.java
+|
+├── Repository/
+│   ├── PatientRepository.java
+│   ├── CaregiverRepository.java
+│   ├── ServiceRepository.java 
 │
 ├── service/
+│   ├── PatientService.java
+│   ├── CaregiverService.java
+│   ├── ServiceService.java 
 |
-├── exception/
-|
-└── controller/
+└── 
 
-/src/test/java/org/rma
-├── service/
-└──
-
-./
-├── index.html
-│
-├── styles/
-│   ├── style.css
-│
-└── images/
 ```

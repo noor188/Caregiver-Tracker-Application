@@ -85,3 +85,13 @@ li a:hover:not(.active){
     background-position: center;      
 
 }
+
+.login-img{
+    height: 5em;
+    vertical-align: bottom;
+}
+
+.create-account, .signup-account {
+    text-decoration: none;
+    columns: Blue;
+}

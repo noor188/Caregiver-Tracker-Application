@@ -1,4 +1,4 @@
-package com.example.spring_boot_crud_api;
+package com.Caregiver.org;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
